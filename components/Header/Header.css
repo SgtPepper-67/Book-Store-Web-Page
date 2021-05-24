@@ -1,0 +1,25 @@
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    padding: var(--spacing-small);
+	background-color: #24262b;
+}
+
+.wrapper {
+    /* margin-left: auto; */
+    padding: 3px;
+}
+
+.header-counter {
+    /*margin-left: auto;*/
+    display: inline-block;
+    padding: var(--spacing-small);
+    color: rgb(212, 211, 211);
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#limit {
+    display: inline-block;
+}
